@@ -1,0 +1,211 @@
+.App {
+  height: 100vh;
+}
+
+.canvas {
+  width: 100%;
+  height: 100vh;
+  position: relative;
+  z-index: -2;
+
+  overflow: hidden;
+}
+
+.whiteFluff {
+  position: absolute;
+  top: 170px;
+  left: 0;
+  height: 450px;
+  width: 770px;
+  z-index: -1;
+}
+
+.emoji-lg {
+  position: absolute;
+  top: 105px;
+  left: 405px;
+  font-size: 100px;
+}
+
+.monsteraPurple {
+  position: absolute;
+  left: 100px;
+  bottom: 0;
+  height: 330px;
+}
+
+.begonia {
+  position: absolute;
+  left: 275px;
+  bottom: 0;
+  height: 230px;
+}
+
+.monsteraYellow {
+  position: absolute;
+  right: 50px;
+  bottom: 0;
+}
+
+.title {
+  margin-left: 6rem;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 100px;
+  color: #E63C60;
+}
+
+.firstName {
+  position: absolute;
+  top: 117px
+}
+
+.lastName {
+  position: absolute;
+  top: 217px
+}
+
+.underTitle {
+  position: absolute;
+  top: 350px;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 30px;
+  line-height: 35px;
+  text-align: center;
+  color: #A891DD;
+  max-width: 570px;
+  margin-left: 4rem;
+}
+
+.card-container {
+  position: absolute;
+  top: 75px;
+  right: 250px;
+  width: 350px;
+  height: 335px;
+}
+
+.card-shadow {
+  position: absolute;
+  background-color: #A891DD;
+  width: 330px;
+  height: 320px;
+  bottom: 0; 
+  right: 0;
+  border-radius: 5px;
+  z-index: 1;
+}
+
+.card-frame {
+  position: absolute;
+  background-color: #FFD082;
+  width: 330px;
+  height: 320px;
+  top: 0;
+  left: 0; 
+  border-radius: 5px;
+  overflow: hidden;
+  z-index: 2;
+}
+
+.card-frame-navbar {
+  width: 100%;
+  height: 2.5rem;
+  background-color: #FF4F6E;
+  display: grid;
+  align-items: center;
+  grid-template-columns: 1fr 2fr;
+  gap: 1rem;
+}
+
+.card-frame-navbar ul {
+  display: flex;
+  margin-left: 1rem;
+  gap: 0.5rem;
+  list-style: none;
+}
+
+.ball {
+  width: 1rem;
+  height: 1rem;
+  border-radius: 100%;
+}
+
+.red {
+  background-color: #FF7888;
+}
+
+.yellow {
+  background-color: #FFC794;
+}
+
+.green {
+  background-color: #ACC195;
+}
+
+.avatar {
+  position: absolute;
+  top: 55%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  height: 250px;
+  object-fit: cover;
+}
+
+/* Text Box Styling */
+.box-container {
+  position: absolute;
+  bottom: 125px;
+  right: 350px;
+  width: 310px;
+  height: 250px;
+}
+
+.box-frame {
+  position: absolute;
+  top: 0;
+  left: 0; 
+  width: 290px;
+  height: 230px;
+  background-color: #FF436C;
+  border-radius: 5px;
+  z-index: 2;
+}
+
+.box-text {
+  font-weight: 100;
+  color: white;
+}
+
+.box-shadow {
+  position: absolute;
+  bottom: 0; 
+  right: 0;
+  width: 290px;
+  height: 230px;
+  background-color: #F96384;
+  border-radius: 5px;
+  z-index: 1;
+}
+
+/* Utility classes */
+.grid-center {
+  display: grid;
+  justify-content: center;
+  align-items: center;
+}
+
+.arrow {
+  position: absolute;
+  top: 270px;
+  left: 640px;
+  height: 500px;
+}
+
+.emailMeLink {
+  position: absolute;
+  right: 700px;
+  bottom: 150px;
+  z-index: 4;
+}
