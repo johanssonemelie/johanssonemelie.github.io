@@ -21,7 +21,7 @@ function App() {
         <img src={begonia} className="begonia" />
         <h1 className="title firstName">Emelie</h1>
         <h1 className="title lastName">Johansson</h1>
-        <h2 className="underTitle">Working as a software developer
+        <h2 className="underTitle">Working as a software developer <br />
           @ Cygni, part of Accenture</h2>
         <ProfileCard />
         <TextBox text={"something fun here"} />
